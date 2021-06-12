@@ -1,0 +1,10 @@
+testcases/OpenAccountTest.class
+rough/TestProperties.class
+utils/ExcelReader.class
+base/TestBase.class
+rough/TestTimeStamp.class
+listeners/CustomListeners.class
+testcases/AddCustomerTest.class
+utils/ExtentReport.class
+utils/TestUtil.class
+testcases/LoginBankManager.class

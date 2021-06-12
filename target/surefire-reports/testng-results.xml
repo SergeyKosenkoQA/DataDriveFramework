@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Login executed]]>
+    </line>
+    <line>
+      <![CDATA[Open Account executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="20322" started-at="2021-06-06T17:11:35Z" finished-at="2021-06-06T17:11:56Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="6070" started-at="2021-06-06T17:11:35Z" finished-at="2021-06-06T17:11:42Z">
+      <class name="testcases.LoginBankManager">
+        <test-method status="PASS" signature="loginBankManager()[pri:0, instance:testcases.LoginBankManager@3e84448c]" name="loginBankManager" duration-ms="5691" started-at="2021-06-06T13:11:36Z" finished-at="2021-06-06T13:11:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginBankManager -->
+      </class> <!-- testcases.LoginBankManager -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="10985" started-at="2021-06-06T17:11:42Z" finished-at="2021-06-06T17:11:53Z">
+      <class name="testcases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@5562c41e]" name="addCustomerTest" duration-ms="3351" started-at="2021-06-06T13:11:42Z" data-provider="dp" finished-at="2021-06-06T13:11:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postCode=27845.0, lastName=Kabina, firstName=Ramen, runmode=Y, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@5562c41e]" name="addCustomerTest" duration-ms="2476" started-at="2021-06-06T13:11:45Z" data-provider="dp" finished-at="2021-06-06T13:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postCode=27845.0, lastName=Mamba, firstName=Mishka, runmode=Y, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@5562c41e]" name="addCustomerTest" duration-ms="2457" started-at="2021-06-06T13:11:47Z" data-provider="dp" finished-at="2021-06-06T13:11:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postCode=27845.0, lastName=Ararat, firstName=Vasiliy, runmode=Y, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@5562c41e]" name="addCustomerTest" duration-ms="2510" started-at="2021-06-06T13:11:50Z" data-provider="dp" finished-at="2021-06-06T13:11:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postCode=27845.0, lastName=Caplan, firstName=Ura, runmode=Y, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test name="Open Account Test" duration-ms="3248" started-at="2021-06-06T17:11:53Z" finished-at="2021-06-06T17:11:56Z">
+      <class name="testcases.OpenAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@28f2a10f]" name="setUp" is-config="true" duration-ms="7416" started-at="2021-06-06T13:11:28Z" finished-at="2021-06-06T13:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:testcases.OpenAccountTest@28f2a10f]" name="openAccountTest" duration-ms="3211" started-at="2021-06-06T13:11:53Z" data-provider="dp" finished-at="2021-06-06T13:11:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, customer=Harry Potter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Account executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@28f2a10f]" name="tearDown" is-config="true" duration-ms="153" started-at="2021-06-06T13:11:56Z" finished-at="2021-06-06T13:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
